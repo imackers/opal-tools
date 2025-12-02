@@ -97,7 +97,7 @@ tool({
       required: false
     }
   ]
-})(greeting);
+})(arnold_greeting);
 
 tool({
   name: 'todays-date',
@@ -110,7 +110,7 @@ tool({
       required: false
     }
   ]
-})(todaysDate);
+})(arnold_todaysDate);
 
 // Start the server
 const PORT = process.env.PORT || 3000;
