@@ -81,7 +81,7 @@ async function arnold_todaysDate(parameters: DateParameters) {
 
 // Register the tools using decorators with explicit parameter definitions
 tool({
-  name: 'greeting',
+  name: 'arnold-greeting',
   description: 'Greets a person in a random language (English, Spanish, or French)',
   parameters: [
     {
@@ -100,7 +100,7 @@ tool({
 })(arnold_greeting);
 
 tool({
-  name: 'todays-date',
+  name: 'arnold-todays-date',
   description: 'Returns today\'s date in the specified format',
   parameters: [
     {
